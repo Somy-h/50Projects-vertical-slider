@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/common_style.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Vertical Slider</title>
+</head>
+<body>
+   <div class="slider-container">
+        <div class="left-slide-container">
+            <div class="left-slide" style="background-color:rgb(95, 66, 123)"><h1>Violet</h1></div>
+            <div class="left-slide" style="background-color: rgb(160, 77, 77);"><h1>Red</h1></div>    
+            <div class="left-slide" style="background-color: rgb(112, 158, 112);"><h1>Green</h1></div>
+            <div class="left-slide" style="background-color: rgb(73, 73, 130);"><h1>Blue</h1></div>    
+        </div>
+        <div class="right-slide-container">
+            <div class="right-slide" style="background-color:blueviolet; order: 0;"></div>
+            <div class="right-slide" style="background-color: red; order: 1;"></div>
+            <div class="right-slide" style="background-color: green; order: 2;"></div>
+            <div class="right-slide" style="background-color: blue; order:3;"></div>
+            <button type="button" class="left-button-down" id="left-button-down"><i class="fa-solid fa-arrow-down"></i></button>
+            <button type="button" class="right-button-up" id="right-button-up"><i class="fa-solid fa-arrow-up"></i></button>
+        </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
